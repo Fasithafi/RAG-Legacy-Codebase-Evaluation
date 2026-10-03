@@ -1,0 +1,27 @@
+[
+  {
+    "question": "How is the tax calculated in the finance module?",
+    "expected_chunk_id": "finance.py_calculate_tax_0",
+    "expected_answer": "Tax is calculated by multiplying the amount by a rate (default 0.05), returning 0 if the amount is negative."
+  },
+  {
+    "question": "Where is the tax calculation used within the finance system?",
+    "expected_chunk_id": "finance.py_process_invoice_5",
+    "expected_answer": "It is used in the process_invoice function to calculate the total amount including tax."
+  },
+  {
+    "question": "How does the system handle user authentication for the admin user?",
+    "expected_chunk_id": "auth.py_authenticate_14",
+    "expected_answer": "The authenticate method in UserAuth checks if the username is 'admin' and password is 'password123'."
+  },
+  {
+    "question": "What happens when a user logs out?",
+    "expected_chunk_id": "auth.py_logout_21",
+    "expected_answer": "The logout method prints a message indicating the user has logged out."
+  },
+  {
+    "question": "How is the system health monitored?",
+    "expected_chunk_id": "utils.py_system_health_check_7",
+    "expected_answer": "The system_health_check function returns a dictionary containing status, cpu, and mem values."
+  }
+]
